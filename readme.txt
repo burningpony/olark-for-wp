@@ -3,16 +3,16 @@ Contributors: burningpony
 Donate link:
 Tags: olark, hab.la, habla, live chat, chat, help, support, widget, admin, administration, control, custom, edit, interface, panel, plugin, profile, wordpress
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 2.5.1
+Tested up to: 4.5.1
+Stable tag: 2.5.2
 
-A plugin that allows website authors to easily place a [Olark](http://www.olark.com/) live help widget on their WordPress website.
+A plugin that allows website authors to easily place a [Olark](http://special.olark.com/cDBMP/) live help widget on their WordPress website.
 
 == Description ==
 
 Olark for WP makes it easy for WordPress authors to offer live help/chat on their sites. Or even just a one-on-one chat mechanism. Simply drop in the plugin, enter your Olark account ID, and start chatting with your site visitors through your favorite IM client. No complicated settings, one file to drop in, and best of all it's FREE!
 
-To learn more about Olark and how it works visit [the official Olark website](http://www.olark.com/).
+To learn more about Olark and how it works visit (the official Olark website)[http://special.olark.com/cDBMP].
 
 **Get more support at [the official Olark for WordPress page](http://burningpony.com/blog/index.php/2011/05/olark-wordpress-better-together/).**
 
@@ -69,6 +69,7 @@ The best way to get in contact with me is [though my website](http://www.burning
 
 05.09.13 - v2.5 Updating Olark Includes, Removing Deprecated Code, Removing referral Links.   This project is now dead.
 
+04.26.16 - v2.5.2 Bug Fixes
 == Known Issues ==
 
 * FireFox May Have Issues with the Olark Control Panel

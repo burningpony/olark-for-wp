@@ -19,9 +19,10 @@ Author URI: http://www.burningpony.com/
 09.01.11 - v2.4.2 - Removed iFrame
 05.09.13 - v2.5 Updating Olark Includes, Removing Deprecated Code, Removing referral Links.   This project is now dead.
 05.09.13 - v2.5.1 Bad Build
+04.26.16 - v2.5.2 Minor copy / license updates
 
 === LEGAL INFORMATION ===
-Copyright (C) 2011 Russell Osborne <projects@burningpony.com> - www.burningpony.com
+Copyright (C) 2016 Russell Osborne <dev@burningpony.com> - www.burningpony.com
 Original Work By James Dimick <mail@jamesdimick.com> - www.jamesdimick.com
 
 This program is free software: you can redistribute it and/or modify
@@ -157,7 +158,7 @@ function ofw_plugin_actions($links, $file)
             _e('Olark Account ID', $ofw_domain);
 ?></span></h3>
             <div class="inside" style="padding: 0 10px">
-              <p style="text-align:center"><a href="http://www.olark.com/" title="<?php
+              <p style="text-align:center"><a href="http://special.olark.com/cDBMP/" title="<?php
             _e('Chat with your website&rsquo;s visitors using your favorite IM client', $ofw_domain);
 ?>"><img src="<?php
             echo ($plugurldir);
@@ -169,7 +170,7 @@ function ofw_plugin_actions($links, $file)
             settings_fields('olark-for-wp-group');
 ?>
                 <p><label for="ofwID"><?php
-            printf(__('Enter your %1$sChat with your website&rsquo;s visitors using your favorite IM client%2$sOlark%3$s account ID below to activate the plugin.', $ofw_domain), '<strong><a href="http://www.olark.com//" title="', '">', '</a></strong>');
+            printf(__('Enter your %1$sChat with your website&rsquo;s visitors using your favorite IM client%2$sOlark%3$s account ID below to activate the plugin.', $ofw_domain), '<strong><a href="http://www.olark.com/" title="', '">', '</a></strong>');
 ?></label><br />
 
                   <input type="text" name="ofwID" value="<?php
@@ -193,7 +194,7 @@ function ofw_plugin_actions($links, $file)
 
 
 
-                  <div class="postbox" style="float:left;width:20%;margin-right:20px">
+                  <div class="postbox" style="float:left;width:60%;margin-right:20px">
                     <h3 class="hndle"><span><?php
             _e('Change Notes', $ofw_domain);
 ?></span></h3>
@@ -208,9 +209,10 @@ function ofw_plugin_actions($links, $file)
                         <li>06.07.11 - v2.4 - In Plugin Olark Sign up!</li>
                         <li>06.08.11 - v2.4.1 - Bug Fix on Signup (Sessions Will Now persist between page loads) </li>
                         <li>09.01.11 - v2.4.2 - Removed iFrame </li>
-                        <li>05.09.13 - v2.5 Updating Olark Includes, Removing Deprecated Code, Removing referral Links.   This project is now dead.</li>
+                        <li>05.09.13 - v2.5 Updating Olark Includes, Removing Deprecated Code, Removing referral Links.</li>
                         <li>05.09.13 - v2.5.1 Bad Build </li>
-                        <li> <h4> <a href ='http://www.olark.com/customer/portal/articles/314795-wordpress-integration-guide' >This Project is DEAD! For all Future updates please remove this plugin and follow Olark's offical wordpress integration guide here </a> </h4> </li>
+                        <li>04.26.16 - v2.5.2 Bug Fixes</li>
+                        <li> <h4> <a href ='http://www.olark.com/customer/portal/articles/314795-wordpress-integration-guide' >This Project is in maintence only mode. If you desire more advanced functionality please install olark Manually. </a> </h4> </li>
 
                       </ul>
                     </div>
